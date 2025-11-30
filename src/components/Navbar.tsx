@@ -9,7 +9,7 @@ export default function Navbar() {
   const path = usePathname();
   const navItems = [
     { href: "/", label: "Home" },
-    { href: "/about", label: "About" },
+    // { href: "/about", label: "About" },
     { href: "/projects", label: "Projects" },
     { href: "/research", label: "Research" },
     { href: "/experience", label: "Experience" },
@@ -47,32 +47,7 @@ export default function Navbar() {
             </Link>
           ))}
 
-          <a
-            href="https://github.com/yourusername"
-            target="_blank"
-            rel="noreferrer"
-            className="text-gray-500 hover:text-primary"
-            aria-label="GitHub"
-          >
-            <FaGithub />
-          </a>
-          <a
-            href="https://linkedin.com/in/yourprofile"
-            target="_blank"
-            rel="noreferrer"
-            className="text-gray-500 hover:text-primary"
-            aria-label="LinkedIn"
-          >
-            <FaLinkedin />
-          </a>
-
-          <ThemeToggle />
         </nav>
-
-        {/* Mobile controls (simple): Theme toggle always visible, add mobile menu later */}
-        <div className="md:hidden flex items-center gap-3">
-          <ThemeToggle />
-        </div>
       </div>
     </header>
   );

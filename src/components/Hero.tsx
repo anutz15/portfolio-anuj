@@ -9,7 +9,7 @@ export default function Hero() {
         <h1 className="text-4xl md:text-5xl font-bold leading-tight">
           Hi, I'm <span className="text-primary">Anuj Shah</span> — 
           <br />
-          Software Engineer & AI Researcher
+          SFMC Analyst & AI enthusiast
         </h1>
 
         <p className="text-gray-600 dark:text-gray-400 mt-5 max-w-xl text-lg">
