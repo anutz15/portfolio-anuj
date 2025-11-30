@@ -6,7 +6,7 @@ export const projects = [
     description:
       "Designed a CNN with skip connections to denoise Chandrayaan-2 hyperspectral images. Evaluated with PSNR, SSIM, SIM, and SAM metrics. Published at IEEE SPACE 2024.",
     stack: ["Python", "CNN", "Deep Learning", "Remote Sensing"],
-    image: "/images/hsi_cnn.png",
+    image: "/images/projects/denoising_skip_image.jpg",
     link: "https://ieeexplore.ieee.org/abstract/document/10667656",
     category: "Research"
   },
@@ -16,7 +16,7 @@ export const projects = [
     description:
       "Integrated VGG16, ResNet50, and InceptionV3 models with an NLP chatbot to help farmers diagnose plant diseases. Published under Springer Nature.",
     stack: ["TensorFlow", "CNN", "NLP"],
-    image: "/images/plant_cnn.png",
+    image: "/images/projects/healthyleaf.jpg",
     link: "https://link.springer.com/chapter/10.1007/978-3-031-58604-0_15",
     category: "Research"
   },
@@ -26,7 +26,7 @@ export const projects = [
     description:
       "Built self-attention and mixed-attention autoencoders for denoising IIRS data. Compared multiple architectures and filtering techniques.",
     stack: ["Autoencoders", "Attention", "Python"],
-    image: "/images/autoencoder.png",
+    image: "/images/projects/denoising_autoencoder_mixed_attention.jpg",
     link: "#",
     category: "Research"
   },
@@ -38,7 +38,7 @@ export const projects = [
     description:
       "Predicted next-day stock price movement using engineered features (RSI, MACD, OBV, Bollinger Bands). Trained XGBoost and Random Forest models.",
     stack: ["Python", "XGBoost", "Sklearn"],
-    image: "/images/stocksense.png",
+    image: "/images/projects/stocksense.png",
     link: "#",
     category: "Machine Learning"
   },
@@ -48,7 +48,7 @@ export const projects = [
     description:
       "Built ML models to predict NPK, pH, and moisture using environmental data, then recommended optimal crops.",
     stack: ["Python", "Sklearn"],
-    image: "/images/soil.png",
+    image: "/images/projects/soil_prediction.png",
     link: "#",
     category: "Machine Learning"
   },

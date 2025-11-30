@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -39,8 +40,15 @@ export default function Hero() {
 
       {/* RIGHT SIDE */}
       <div className="flex justify-center">
-        <div className="w-56 h-56 md:w-64 md:h-64 rounded-2xl bg-gradient-to-br from-primary to-accent shadow-soft flex items-center justify-center text-white text-4xl font-bold">
-          AS
+        <div className="w-56 h-56 md:w-64 md:h-64 rounded-2xl overflow-hidden shadow-soft bg-gray-200">
+          <Image
+            src="/images/profile/new_image.jpg"  // <-- change this if file name differs
+            alt="Anuj Shah"
+            width={300}
+            height={300}
+            className="object-cover object-center w-full h-full"
+            priority
+          />
         </div>
       </div>
     </section>
