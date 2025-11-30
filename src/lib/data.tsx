@@ -117,3 +117,37 @@ export const projects = [
     category: "CS Fundamentals"
   },
 ];
+
+// =========================
+// CERTIFICATIONS
+// =========================
+
+export const certifications = [
+  {
+    id: "cert1",
+    title: "Salesforce Marketing Cloud Email Essentials",
+    issuer: "Salesforce",
+    date: "2024",
+    skills: ["SFMC", "Email Studio", "Automation Studio"],
+    image: "/images/sfmc.png",
+    link: "#",
+  },
+  {
+    id: "cert2",
+    title: "Deep Learning Specialization",
+    issuer: "DeepLearning.AI",
+    date: "2023",
+    skills: ["Neural Networks", "CNN", "Optimization"],
+    image: "/images/dl.png",
+    link: "#",
+  },
+  {
+    id: "cert3",
+    title: "Python for Everybody",
+    issuer: "Coursera",
+    date: "2022",
+    skills: ["Python", "Backend"],
+    image: "/images/python.png",
+    link: "#",
+  },
+];
