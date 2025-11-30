@@ -16,7 +16,6 @@ export default function Navbar() {
     { href: "/volunteer", label: "Volunteer" },
     { href: "/certifications", label: "Certifications" },
     { href: "/contact", label: "Contact" },
-    { href: "/resume", label: "Resume" },
   ];
 
   return (

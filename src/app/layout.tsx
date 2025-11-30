@@ -20,7 +20,7 @@ const geistMono = Geist_Mono({
 // ---- PAGE METADATA ----
 export const metadata: Metadata = {
   title: "Anuj Shah — Portfolio",
-  description: "Software Engineer & AI Researcher Portfolio",
+  description: "Portfolio website of Anuj Shah (Software Engineer & AI Researcher). Resume, projects, research publications, and achievements.",
 };
 
 // ---- ROOT LAYOUT ----

@@ -26,12 +26,14 @@ export default function Hero() {
             View Projects
           </Link>
 
-          <Link
-            href="/resume"
+          <a
+            href="/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="px-6 py-3 border rounded-lg font-medium hover:bg-gray-100 dark:hover:bg-gray-800 transition"
           >
-            Resume
-          </Link>
+            View Resume
+          </a>
         </div>
       </div>
 
