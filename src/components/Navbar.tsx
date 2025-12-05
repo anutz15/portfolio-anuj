@@ -30,7 +30,7 @@ export default function Navbar() {
           </div>
           <div className="hidden md:block">
             <div className="font-semibold">Anuj Shah</div>
-            <div className="text-sm text-gray-500 dark:text-gray-400">Software Engineer · ML</div>
+            <div className="text-sm text-gray-500 dark:text-gray-400">Aspiring AI Researcher</div>
           </div>
         </Link>
 
