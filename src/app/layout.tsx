@@ -35,10 +35,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black`}
       >
-        {/* ⭐ FULLSCREEN PARTICLES BACKGROUND */}
         <ParticlesBackground />
-
-        {/* ⭐ ALL WEBSITE CONTENT ABOVE BACKGROUND */}
         <div className="relative z-10 min-h-screen flex flex-col">
           <Navbar />
           <main className="container py-10 flex-1">{children}</main>

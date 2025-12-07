@@ -2,14 +2,12 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import ThemeToggle from "./ThemeToggle";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function Navbar() {
   const path = usePathname();
+
   const navItems = [
     { href: "/", label: "Home" },
-    // { href: "/about", label: "About" },
     { href: "/projects", label: "Projects" },
     { href: "/research", label: "Research" },
     { href: "/experience", label: "Experience" },
@@ -19,36 +17,53 @@ export default function Navbar() {
   ];
 
   return (
-    <header className="w-full border-b py-4 bg-white dark:bg-[#071024]/70 backdrop-blur-sm">
-      <div className="container flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-3">
-          <div
-            aria-hidden
-            className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-accent text-white flex items-center justify-center font-bold"
-          >
-            AS
-          </div>
-          <div className="hidden md:block">
-            <div className="font-semibold">Anuj Shah</div>
-            <div className="text-sm text-gray-500 dark:text-gray-400">Aspiring AI Researcher</div>
-          </div>
+    <header className="fixed top-5 left-1/2 -translate-x-1/2 z-20 w-[90%] md:w-[80%] lg:w-[70%]">
+      <nav
+        className="
+          flex items-center justify-between
+          px-8 py-3
+          rounded-2xl
+          bg-[#221e1e]/90
+          shadow-lg
+          backdrop-blur-md
+          border border-black/20
+          text-white
+        "
+      >
+        {/* LEFT SECTION — TITLE */}
+        <Link href="/" className="text-xl font-semibold tracking-wide">
+          My Portfolio
         </Link>
 
-        <nav className="hidden md:flex items-center gap-6">
-          {navItems.map((n) => (
-            <Link
-              key={n.href}
-              href={n.href}
-              className={`text-sm transition-colors ${
-                path === n.href ? "text-primary font-medium" : "text-gray-500 hover:text-primary"
-              }`}
-            >
-              {n.label}
-            </Link>
-          ))}
+        {/* RIGHT SECTION — NAV LINKS */}
+        <ul className="flex items-center gap-8 text-white">
+          {navItems.map((item) => {
+            const isActive = path === item.href;
 
-        </nav>
-      </div>
+            return (
+              <li key={item.href} className="relative group">
+                <Link
+                  href={item.href}
+                  className={`
+                    relative text-sm tracking-wide transition
+                    ${isActive ? "text-blue-400 font-semibold" : "text-gray-300 group-hover:text-white"}
+                  `}
+                >
+                  {item.label}
+
+                  {/* Underline animation */}
+                  <span
+                    className={`
+                      absolute left-0 -bottom-1 h-[2px] transition-all duration-300
+                      ${isActive ? "w-full bg-blue-400" : "w-0 bg-white group-hover:w-full"}
+                    `}
+                  ></span>
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
+      </nav>
     </header>
   );
 }

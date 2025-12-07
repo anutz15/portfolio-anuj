@@ -52,70 +52,70 @@ export const projects = [
     link: "#",
     category: "Machine Learning"
   },
-  {
-    id: "ml3",
-    title: "FraudGuard — Credit Card Fraud Detection",
-    description:
-      "Developed a fraud detection model using Logistic Regression, XGBoost, Random Forest, and Isolation Forest with SMOTE and feature engineering.",
-    stack: ["Python", "ML"],
-    image: "/images/fraud.png",
-    link: "#",
-    category: "Machine Learning"
-  },
-  {
-    id: "cv1",
-    title: "Automatic Number Plate Recognition (ANPR)",
-    description:
-      "Built a YOLOv5 + EasyOCR pipeline to detect and read number plates in real time.",
-    stack: ["YOLOv5", "Python", "OCR"],
-    image: "/images/anpr.png",
-    link: "#",
-    category: "Computer Vision"
-  },
+  // {
+  //   id: "ml3",
+  //   title: "FraudGuard — Credit Card Fraud Detection",
+  //   description:
+  //     "Developed a fraud detection model using Logistic Regression, XGBoost, Random Forest, and Isolation Forest with SMOTE and feature engineering.",
+  //   stack: ["Python", "ML"],
+  //   image: "/images/fraud.png",
+  //   link: "#",
+  //   category: "Machine Learning"
+  // },
+  // {
+  //   id: "cv1",
+  //   title: "Automatic Number Plate Recognition (ANPR)",
+  //   description:
+  //     "Built a YOLOv5 + EasyOCR pipeline to detect and read number plates in real time.",
+  //   stack: ["YOLOv5", "Python", "OCR"],
+  //   image: "/images/anpr.png",
+  //   link: "#",
+  //   category: "Computer Vision"
+  // },
 
-  // ==== SOFTWARE ENGINEERING PROJECTS ====
-  {
-    id: "web1",
-    title: "EventSphere — Event Booking Platform (MERN)",
-    description:
-      "Full-stack event management system with JWT auth, search filters, admin dashboard, and Razorpay payments.",
-    stack: ["React", "Node.js", "Express", "MongoDB"],
-    image: "/images/eventsphere.png",
-    link: "#",
-    category: "Web Development"
-  },
-  {
-    id: "web2",
-    title: "EcoCart — E-Commerce Platform",
-    description:
-      "Full e-commerce platform with cart, checkout, admin panel, JWT auth, and Stripe/PayPal integration.",
-    stack: ["React", "Node.js", "MongoDB"],
-    image: "/images/ecocart.png",
-    link: "#",
-    category: "Web Development"
-  },
-  {
-    id: "web3",
-    title: "Library Management System (Django)",
-    description:
-      "Built a complete LMS with book management, authentication, payment gateway, and Django backend.",
-    stack: ["Django", "Python"],
-    image: "/images/library.png",
-    link: "#",
-    category: "Web Development"
-  },
+  // // ==== SOFTWARE ENGINEERING PROJECTS ====
+  // {
+  //   id: "web1",
+  //   title: "EventSphere — Event Booking Platform (MERN)",
+  //   description:
+  //     "Full-stack event management system with JWT auth, search filters, admin dashboard, and Razorpay payments.",
+  //   stack: ["React", "Node.js", "Express", "MongoDB"],
+  //   image: "/images/eventsphere.png",
+  //   link: "#",
+  //   category: "Web Development"
+  // },
+  // {
+  //   id: "web2",
+  //   title: "EcoCart — E-Commerce Platform",
+  //   description:
+  //     "Full e-commerce platform with cart, checkout, admin panel, JWT auth, and Stripe/PayPal integration.",
+  //   stack: ["React", "Node.js", "MongoDB"],
+  //   image: "/images/ecocart.png",
+  //   link: "#",
+  //   category: "Web Development"
+  // },
+  // {
+  //   id: "web3",
+  //   title: "Library Management System (Django)",
+  //   description:
+  //     "Built a complete LMS with book management, authentication, payment gateway, and Django backend.",
+  //   stack: ["Django", "Python"],
+  //   image: "/images/library.png",
+  //   link: "#",
+  //   category: "Web Development"
+  // },
 
-  // ==== CS CORE ====
-  {
-    id: "cs1",
-    title: "SmartScheduler — CPU Scheduling Simulator",
-    description:
-      "Simulator implementing FCFS, SJF, Priority Scheduling, and Round Robin with visualizations and metrics.",
-    stack: ["C", "C++", "OS Concepts"],
-    image: "/images/scheduler.png",
-    link: "#",
-    category: "CS Fundamentals"
-  },
+  // // ==== CS CORE ====
+  // {
+  //   id: "cs1",
+  //   title: "SmartScheduler — CPU Scheduling Simulator",
+  //   description:
+  //     "Simulator implementing FCFS, SJF, Priority Scheduling, and Round Robin with visualizations and metrics.",
+  //   stack: ["C", "C++", "OS Concepts"],
+  //   image: "/images/scheduler.png",
+  //   link: "#",
+  //   category: "CS Fundamentals"
+  // },
 ];
 
 // =========================
